@@ -27,6 +27,7 @@ public class TestDatabaseConfiguration extends Neo4jConfiguration {
     public Neo4jServer neo4jServer() {
         log.info("Initialising Test Server Connection");
         return new RemoteServer("http://localhost:7474", "neo4j", "neo4j_322nyq");
+        
     }
 
     @Override
